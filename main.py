@@ -31,8 +31,7 @@ while cantidadGWh <= meta_generacionGWh:
     else:
         try:
             cantidadGWh = float(input('Ingrese la cantidad de GWh que genera la fuente:'))
-
-            # Validación de datos
+# Validación de datos
             if cantidadGWh < 0.75 or cantidadGWh > 1.25:
                 print('La cantidad de GWh ingresada no es valida, vuelva a intentarlo')
                 continue
