@@ -19,7 +19,7 @@ cantidadGWh_solar = 0
 cantidadGWh_eolica = 0
 cantidadGWh_termica = 0
 
-meta_generacionGWh = 5
+meta_generacionGWh = 5.0
 cantidadGWh = 0
 
 # Ciclo While
