@@ -1,17 +1,11 @@
-¿Cuáles son las variables principales de tu solución y cuál es su propósito?
+1.Variables de conteo de eventos:fuente_hidrica, fuente_solar, fuente_eolica, fuente_termica
+cantidadGWh_hidrica, cantidadGWh_solar, cantidadGWh_eolica, cantidadGWh_termica.
+Variables de control del ciclo: meta_generacionGWh.
+cantidadGWhcantidadGWh_actual:
+Variables de promedio:promedio_hidrica, promedio_solar, promedio_eolica, promedio_termica
+2. Se ejecuta hasta que el GWh alcance los 5GWH, en mi opinion me parece mejor en ciclo while porque ingresa los datos hasta alxcanzar la meta propuesta y si se ingresa un dato invalido da la posibilidad de volver a escribir el valor equivocado sin que se reinicie el ciclo.
+3.Se podria implementar un condicional en la funcion para que solo obtengamos el total de Gwh mayor que 0 que devuelva igualmente 0 porque no hay ningun evento registrado.
+4. Se tendria que agregar la variable de 'fuente_nuclear al codigo, incluirla en el ciclo while para que aparezca como una de las opciones validas, implementarla igualmente en el calculo de los promedios y tambien incluirla para que se muestren los resultados.
 
-Las principales variables del programa y su propósito son:
-	Variables de conteo de eventos:fuente_hidrica, fuente_solar, fuente_eolica, fuente_termica:
-	cantidadGWh_hidrica, cantidadGWh_solar, cantidadGWh_eolica, cantidadGWh_termica:
-→ Acumulan la cantidad total de energía generada por cada fuente.
-	3.	Variables de control del ciclo:
-	•	meta_generacionGWh:
-→ Define la meta de generación total de energía (5 GWh).
-	•	cantidadGWh:
-→ Almacena el valor de energía ingresado por el usuario en cada iteración.
-	•	cantidadGWh_actual:
-→ Suma total de toda la generación acumulada en el momento.
-	4.	Variables de promedio:
-	•	promedio_hidrica, promedio_solar, promedio_eolica, promedio_termica:
-→ Calculan el promedio de generación por evento de cada fuente de energía.
+
 
